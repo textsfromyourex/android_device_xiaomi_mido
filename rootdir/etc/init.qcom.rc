@@ -162,6 +162,10 @@ on boot
     chown root system /sys/class/leds/led:torch_1/max_brightness
     chmod 0660 /sys/class/leds/led:torch_1/max_brightness
 
+    chown root system /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_1/max_brightness
+    chmod 0660 /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_1/max_brightness
+    write /sys/devices/soc/qpnp-flash-led-25/leds/led:torch_1/max_brightness 0    
+
  # Vibration
     chown root system /sys/class/timed_output/vibrator/vtg_level
     chmod 0660 /sys/class/timed_output/vibrator/vtg_level
