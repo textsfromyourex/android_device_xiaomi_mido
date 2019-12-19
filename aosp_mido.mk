@@ -21,7 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common Evolution X stuff.
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 CUSTOM_BUILD_TYPE := OFFICIAL
