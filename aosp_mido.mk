@@ -24,6 +24,7 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
