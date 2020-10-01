@@ -2,6 +2,10 @@
 # system.prop for mido
 #
 
+# Apex
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.apex.updatable=true
+
 # [Temp] Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
 dalvik.vm.heapstartsize=16m \
