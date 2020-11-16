@@ -245,3 +245,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.dha_th_rate=2.3 \
     ro.config.sdha_apps_bg_max=64 \
     ro.config.sdha_apps_bg_min=8
+
+# Maintainer Props
+PRODUCT_PROPERTY_OVERRIDES += \
+    org.evolution.build_donate_url=https://paypal.me/swaraj14111998 \
+    org.evolution.build_maintainer=Ctrl \
+    org.evolution.build_maintainer=https://t.me/EvolutionXMido
