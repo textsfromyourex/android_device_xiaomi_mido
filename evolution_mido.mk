@@ -29,6 +29,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Some Extra's
 EVO_BUILD_TYPE := OFFICIAL
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
